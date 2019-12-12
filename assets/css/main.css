@@ -3,6 +3,7 @@
   --su-bg-light: #ffffff;
   --su-bg-light-tint: #f4f4f4;
   --su-bg-dark-tint: rgb(77, 79, 83);
+  --su-brand-bar-bright: #b1040e;
   --su-font-color-dark: #2e2d29;
   --su-font-color-link: #006cb8;
   --su-font-color-light: #ffffff;
@@ -138,6 +139,12 @@ body {
   font: 1em/1.35 var(--su-font-family);
   overflow: auto;
   margin: 0
+}
+
+body::before {
+  background-color: var(--su-brand-bar-bright);
+  height: 30px;
+  width: 100%;
 }
 
 a {
@@ -426,6 +433,7 @@ table p {
   padding: 0.5em 3em;
   display: block;
   text-decoration: none;
+  text-transform: capitalize;
 }
 
 .sidebar__item:hover, .sidebar__item:active, .sidebar__item:focus {
@@ -452,6 +460,7 @@ table p {
 .sidebar__item--sub-heading {
   font-size: 18px;
   padding: 0.5em 2em;
+  text-transform: capitalize;
 }
 
 .sidebar__item--sub-heading a {
@@ -589,7 +598,8 @@ table p {
 }
 
 .footer {
-  background: #e0e0e0;
+  background: var(--su-brand-bar-bright);
+  color: var(--su-font-color-light);
   padding: 1em 0
 }
 
