@@ -141,12 +141,6 @@ body {
   margin: 0
 }
 
-body::before {
-  background-color: var(--su-brand-bar-bright);
-  height: 30px;
-  width: 100%;
-}
-
 a {
   transition: 0.15s;
   text-decoration: none;
@@ -627,7 +621,7 @@ table p {
 }
 
 .project-info__version, .project-info__license {
-  color: #555
+  color: var(--su-font-color-light);
 }
 
 .project-info__license {
