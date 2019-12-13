@@ -1,2 +1,39 @@
-node_modules
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+
+# OS or Editor folders
+.DS_Store
+.cache
+.idea
 .sass-cache
+.project
+.settings
+.tmproj
+.styleguide_site
+nbproject
+Thumbs.db
+config.rb
+*.scssc
+*.sassc
+*.map
+
+# Folders to ignore
+.hg
+.svn
+.CVS
+cgi-bin
+node_modules
+styleguide
+kss/builder/decanter/kss-assets/dist
+
+# Ignore as they are customized on the user end.
+.lando.yml
+
