@@ -3,6 +3,7 @@
   "title": "SassDoc Decanter Theme",
   "description": "A SassDoc theme for Decanter. See http://sassdoc.com/",
   "version": "0.1.0",
+  "repository": "https://github.com/SU-SWS/sassdoc-theme-decanter",
   "keywords": [
     "sassdoc-theme"
   ],
@@ -10,15 +11,16 @@
     "extend": "^1.0.0",
     "nunjucks": "^3.2.0",
     "sassdoc-extras": "^2.0.0",
-    "themeleon": "^3.0.0"
+    "themeleon": "^3.0.0",
+    "webpack": "^4.41.2"
   },
   "engines": {
     "node": ">=0.10.0"
   },
   "devDependencies": {
     "bluebird": "^3.7.2",
+    "decanter": "^6.0.0-alpha.1",
     "fs-extra": "^8.1.0",
-    "grunt": "^1.0.4",
     "grunt-autoprefixer": "^3.0.4",
     "grunt-browser-sync": "^2.2.0",
     "grunt-contrib-imagemin": "^3.1.0",
