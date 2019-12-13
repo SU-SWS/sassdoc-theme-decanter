@@ -1,55 +1,34 @@
 {
-  "_args": [
-    [
-      "sassdoc-theme-decanter@0.1.0",
-      "/usr/local/var/www/decanter/decanter-web"
-    ]
+  "name": "sassdoc-theme-decanter",
+  "title": "SassDoc Decanter Theme",
+  "description": "A SassDoc theme for Decanter. See http://sassdoc.com/",
+  "version": "0.1.0",
+  "keywords": [
+    "sassdoc-theme"
   ],
-  "_development": true,
-  "_from": "sassdoc-theme-decanter@0.1.0",
-  "_id": "sassdoc-theme-decanter@0.1.0",
-  "_inBundle": false,
-  "_integrity": "sha512-KEl1ghIAwkkBGiYvkwVFepOA8IDEqgKsm0fGHUIcepcXiIp2SoHA0ZC5TZFjwaTrs296K1QK5WL4QtjNhS76+g==",
-  "_location": "/sassdoc-theme-decanter",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "version",
-    "registry": true,
-    "raw": "sassdoc-theme-decanter@0.1.0",
-    "name": "sassdoc-theme-decanter",
-    "escapedName": "sassdoc-theme-decanter",
-    "rawSpec": "0.1.0",
-    "saveSpec": null,
-    "fetchSpec": "0.1.0"
-  },
-  "_requiredBy": [
-    "/sassdoc"
-  ],
-  "_spec": "0.1.0",
-  "_where": "/usr/local/var/www/decanter/decanter-web",
-  "author": {
-    "name": "Decanter team"
-  },
   "dependencies": {
-    "babel-runtime": "^6.22.0",
-    "chroma-js": "^1.2.2",
-    "decanter": "^6.0.0-alpha.1",
-    "es6-denodeify": "^0.1.0",
-    "es6-promise": "^4.2.6",
-    "extend": "^3.0.2",
-    "fs-extra": "^2.0.0",
-    "html-minifier": "^3.5.21",
-    "nunjucks": "^3.1.7",
-    "sassdoc-extras": "^2.5.0"
+    "extend": "^1.0.0",
+    "nunjucks": "^3.2.0",
+    "sassdoc-extras": "^2.0.0",
+    "themeleon": "^3.0.0"
   },
-  "description": "SassDoc's default theme",
+  "engines": {
+    "node": ">=0.10.0"
+  },
   "devDependencies": {
-    "babel-cli": "^6.22.2",
-    "babel-plugin-transform-runtime": "^6.22.0",
-    "babel-preset-latest": "^6.22.0",
-    "node-sass": "^4.11.0",
-    "standard": "^8.6.0",
-    "uglify-js": "^2.4.15"
+    "bluebird": "^3.7.2",
+    "fs-extra": "^8.1.0",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-imagemin": "^3.1.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-newer": "^1.3.0",
+    "grunt-sassdoc": "^2.0.3",
+    "grunt-svgmin": "^6.0.0",
+    "load-grunt-tasks": "^5.1.0",
+    "time-grunt": "^2.0.0"
   },
   "files": [
     "index.js",
@@ -61,11 +40,5 @@
     "LICENSE.md",
     "README.md"
   ],
-  "keywords": [
-    "sassdoc-theme"
-  ],
-  "license": "MIT",
-  "name": "sassdoc-theme-decanter",
-  "title": "SassDoc Decanter Theme",
-  "version": "0.1.0"
+  "license": "MIT"
 }
