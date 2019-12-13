@@ -7,6 +7,14 @@
   "keywords": [
     "sassdoc-theme"
   ],
+  "config": {
+    "srcSass": "src/scss",
+    "distSass": "dist/css",
+    "srcJS": "src/js",
+    "distJS": "dist/js",
+    "srcAssets": "src/assets",
+    "distAssets": "dist/assets"
+  },
   "dependencies": {
     "extend": "^1.0.0",
     "nunjucks": "^3.2.0",
@@ -32,5 +40,12 @@
     "LICENSE.md",
     "README.md"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode=development --display-error-details",
+    "publish": "webpack --mode=production",
+    "watch": "webpack --mode=development --watch",
+    "lint:js": "eslint -c .eslintrc 'src/js'",
+    "lint:sass": "sass-lint -c .sass-lint.yml '**/*.scss' -v -q -i 'vendor/**/*.scss, node_modules/**/*.scss'"
+  }
 }

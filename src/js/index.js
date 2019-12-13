@@ -4,7 +4,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _default = require('../default');
+var _default = require('sassdoc-theme-decanter/default');
 
 var _default2 = _interopRequireDefault(_default);
 
@@ -32,7 +32,7 @@ var _sassdocExtras = require('sassdoc-extras');
 
 var _sassdocExtras2 = _interopRequireDefault(_sassdocExtras);
 
-var _nunjucks = require('./nunjucks');
+var _nunjucks = require('sassdoc-theme-decanter/src/js/nunjucks');
 
 var _nunjucks2 = _interopRequireDefault(_nunjucks);
 
