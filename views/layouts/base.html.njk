@@ -15,8 +15,16 @@
   {% include "../includes/partials/head.html.njk" %}
 </head>
 <body>
+  {# Brand bar #}
+  <section class="su-brand-bar su-brand-bar--bright">
+    <div class="su-brand-bar__container">
+      <a class="su-brand-bar__logo" href="https://stanford.edu">Stanford University
+      </a>
+    </div>
+  </section>
+
   {# Sidebar #}
-  <aside class="sidebar" role="nav">
+  <aside class="sidebar su-secondary-nav" role="nav">
     {% block sidebar %}{% endblock %}
   </aside>
 

@@ -1,0 +1,13 @@
+/* main-decanter.css */
+
+/* Layout */
+
+.header {
+  top: 30px;
+}
+
+@media (min-width: 801px) {
+  .sidebar {
+    top: 30px;
+  }
+}
