@@ -33,6 +33,7 @@
   "dependencies": {
     "babel-runtime": "^6.22.0",
     "chroma-js": "^1.2.2",
+    "decanter": "git+https://github.com/su-sws/decanter.git#v6",
     "es6-denodeify": "^0.1.0",
     "es6-promise": "^4.2.6",
     "extend": "^3.0.2",
@@ -65,6 +66,7 @@
   ],
   "license": "MIT",
   "name": "sassdoc-theme-decanter",
+  "repository": "https://github.com/SU-SWS/sassdoc-theme-decanter",
   "title": "SassDoc Decanter Theme",
   "version": "0.1.0"
 }
