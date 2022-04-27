@@ -18,7 +18,7 @@
   "devDependencies": {
     "bluebird": "^3.7.2",
     "fs-extra": "^8.1.0",
-    "grunt": "^1.0.4",
+    "grunt": "^1.5.2",
     "grunt-autoprefixer": "^3.0.4",
     "grunt-browser-sync": "^2.2.0",
     "grunt-contrib-imagemin": "^3.1.0",
